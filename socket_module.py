@@ -8,5 +8,5 @@ import socket
 def print_hostname():
   my_hostname=socket.gethostname()
   
-if __name__ == __main__:
+if __name__ == '__main__':
   print_hostname()
